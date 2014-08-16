@@ -127,3 +127,5 @@ mean(avg.steps2$x[which(avg.steps2$Group.2=="Weekend")])
 ```
 
 The average number of steps for each 5-minute interval on average across all weekdays is `r round(mean(avg.steps2$x[which(avg.steps2$Group.2=="Weekday")]))` and on average across all weekends is `r round(mean(avg.steps2$x[which(avg.steps2$Group.2=="Weekend")]))`.  
+
+knit2html("PA1_template.Rmd)
